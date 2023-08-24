@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>User Form</h2>
+        <div class="Form-container">
+            <form action="connect.php" method="post">
+                <div class="input-name">
+                <label for="name">name:</label>
+                <input type="text" name="name"><br>
+                </div>
+                <div class="input-name">
+                <label for="Email">Email:</label>
+                <input type="email" name="Email"><br>
+                </div>
+                <div class="input-name">
+                    <label for="phone">phone:</label>
+                    <input type="tel" name="phone"><br>
+                </div>
+                <div class="input-name">
+                    <label for="Adress">Adress:</label>
+                    <input type="text" name="Adress"><br>
+                </div>
+
+                <div class="input-name">
+                    <label for="POST">Post Code:</label>
+                    <input type="number" name="Post"><br>
+                </div>
+                
+                  <div class="input-name">
+                    <label for="country">country:</label>
+                    <select class="country" name="country">
+                        <option>India</option>
+                        <option>UK</option>
+                        <option>USa</option>
+                    </select>
+
+                  <div class="input-name">
+                     <label>CARD TYPE</label>
+                     <input type="radio" class="radio-button" name="btn">
+                     <label for="visa">Visa</label>
+
+                     <input type="radio" class="radio-button" name="btn">
+                     <label for="AMEX">AMEX</label>
+
+                     <input type="radio" class="radio-button" name="btn">
+                     <label for="mastercard">mastercard</label>
+                    </div>
+                  <div class="input-name">
+                     <label for="card">Card Number:</label>
+                     <input type="number" name="card">
+                    </div>
+
+                  <div class="input-name">
+                     <label for="code">Security Code:</label>
+                     <input type="number" name="code">
+                    </div>
+
+                    <div class="input-name">
+                        <label for="ncard">Name of card:</label>
+                        <input type="text" name="ncard">
+                    </div>
+                    <input type="submit" name="submit">
+                    
+              </div>
+                
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
